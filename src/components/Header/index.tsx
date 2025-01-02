@@ -36,12 +36,6 @@ const Header = ({ t }: { t: TFunction }) => {
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
           <Span>{t("About")}</Span>
         </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
-        </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
           onClick={() => scrollTo("contact")}
@@ -60,14 +54,14 @@ const Header = ({ t }: { t: TFunction }) => {
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
             <SvgIcon src="psm_logo.jpg" width="80" height="80" />
-            <SvgIcon src="psm_text.svg" width="80" height="80" />
+            <SvgIcon src="psm_text.svg" width="300" height="100" />
           </LogoContainer>
           <NotHidden>
             <MenuItem />
           </NotHidden>
-          <Burger onClick={toggleButton}>
+          {/* <Burger onClick={toggleButton}>
             <Outline />
-          </Burger>
+          </Burger> */}
         </Row>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>

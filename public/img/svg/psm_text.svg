@@ -1,3 +1,14 @@
-<svg height="100" width="100" xmlns="http://www.w3.org/2000/svg">
-  <text x="50" y="50" font-family="Motiva Sans Light, sans-serif" fill="#18216d" font-size="43px" font-weight="200">PartySafe Medics LLC</text>
+<!-- <svg viewBox="0 0 130 40" xmlns="http://www.w3.org/2000/svg">
+  <text y="30"  fill="#18216d" font-size="43px" font-weight="700">PartySafe Medics LLC</text>
+</svg> -->
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
+  <text x="150" y="60" 
+        font-family="Motiva Sans Bold, sans-serif"
+        font-size="36" 
+        text-anchor="middle" 
+        fill="#18216d"
+        font-weight="600">
+    PartySafe Medics
+  </text>
 </svg>
