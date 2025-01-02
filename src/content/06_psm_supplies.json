@@ -1,0 +1,13 @@
+{
+  "title": "Supplies",
+  "text": "Our medics provide their own supplies, including: Naloxone Fentanyl test strips Safer drug use supplies Emergency contraceptives Sexual health and hygiene products Pulse oximeters, glucometers, thermometers, blood pressure monitors Extremity splints and ACE bandages Airway management (oral and nasal airway adjuncts, bag valve masks) Hydration and electrolyte supplements (pedialyte, electrolit) ",
+  "button": [
+    {
+      "title": "Contact Us"
+    },
+    {
+      "title": "Learn more",
+      "color": "#fff"
+    }
+  ]
+}
