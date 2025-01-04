@@ -54,14 +54,13 @@ const Header = ({ t }: { t: TFunction }) => {
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
             <SvgIcon src="psm_logo.jpg" width="80" height="80" />
-            <SvgIcon src="psm_text.svg" width="300" height="100" />
+            <h3>PartySafe Medics</h3>
+          </LogoContainer>
+          <LogoContainer to="/" aria-label="homepage">
           </LogoContainer>
           <NotHidden>
             <MenuItem />
           </NotHidden>
-          {/* <Burger onClick={toggleButton}>
-            <Outline />
-          </Burger> */}
         </Row>
         <Drawer closable={false} open={visible} onClose={toggleButton}>
           <Col style={{ marginBottom: "2.5rem" }}>

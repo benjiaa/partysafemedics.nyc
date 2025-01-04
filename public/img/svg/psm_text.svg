@@ -3,9 +3,9 @@
 </svg> -->
 
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 100">
-  <text x="150" y="60" 
+  <text x="130" y="55" 
         font-family="Motiva Sans Bold, sans-serif"
-        font-size="36" 
+        font-size="30" 
         text-anchor="middle" 
         fill="#18216d"
         font-weight="600">
